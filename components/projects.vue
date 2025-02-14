@@ -38,7 +38,9 @@
 			data-aos-duration="1000"
 			class="p-2">
 			<template #header>
-				<NuxtLink :to="project.link">
+				<NuxtLink
+					:to="project.link"
+					target="_blank">
 					<NuxtImg
 						:src="project.image"
 						sizes="800px"
@@ -52,7 +54,7 @@
 				<span class="whitespace-pre text-wrap">{{ project.description }}</span>
 			</template>
 			<template #footer>
-				<NuxtLink :to="project.github">
+				<NuxtLink :to="project.github" target="_blank">
 					<Icon
 						name="line-md:github-loop"
 						size="2em"

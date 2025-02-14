@@ -10,7 +10,9 @@
 				ricerca di nuove sfide e opportunità di apprendimento.
 			</p>
 			<div class="space-x-4">
-				<NuxtLink to="https://www.linkedin.com/in/andrea-niccolini-497a57348/"
+				<NuxtLink
+					to="https://www.linkedin.com/in/andrea-niccolini-497a57348/"
+					target="_blank"
 					><Icon
 						name="line-md:linkedin"
 						size="2em" />
