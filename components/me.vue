@@ -31,6 +31,7 @@
 		</div>
 		<NuxtImg
 			src="/me.png"
-			sizes="250px" />
+			sizes="250px"
+			width="250px" />
 	</div>
 </template>
