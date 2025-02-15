@@ -13,6 +13,7 @@
     "@formkit/auto-animate": "^0.8.2",
     "@nuxt/icon": "^1.10.3",
     "@nuxt/image": "^1.9.0",
+    "@nuxtjs/seo": "^2.1.1",
     "@nuxtjs/tailwindcss": "^6.13.1",
     "@primevue/nuxt-module": "^4.2.5",
     "@primevue/themes": "^4.2.5",

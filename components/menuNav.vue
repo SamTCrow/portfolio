@@ -7,8 +7,13 @@
 		},
 		{
 			label: "I miei progetti",
-			icon: "line-md:folder-network",
+			icon: "line-md:document-code",
 			link: "#projects",
+		},
+		{
+			label: "I miei attestati",
+			icon: "line-md:align-center",
+			link: "#awards",
 		},
 	];
 </script>

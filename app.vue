@@ -77,7 +77,7 @@
 	<div>
 		<NuxtRouteAnnouncer />
 		<NuxtLayout>
-			<div class="fixed left-0 h-full shadow-md z-20"><MenuNav /></div>
+			<div class="fixed left-0 z-20 h-full shadow-md"><MenuNav /></div>
 			<div class="flex min-h-screen">
 				<Me />
 			</div>
@@ -90,6 +90,11 @@
 				class="flex min-h-screen"
 				id="projects">
 				<Projects />
+			</div>
+			<div
+				class="flex min-h-screen"
+				id="awards">
+				<Awards />
 			</div>
 			<ScrollTop />
 			<NuxtParticles

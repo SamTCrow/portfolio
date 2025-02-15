@@ -29,8 +29,11 @@
 
 <template>
 	<div
-		class="m-auto text-white text-left max-w-[800px] bg-zinc-900 bg-opacity-90 rounded-lg p-6 flex flex-col gap-6 z-10">
-		<p class="text-pretty text-center font-medium text-2xl">I miei progetti</p>
+		class="m-auto text-white text-left max-w-[800px] bg-zinc-900 bg-opacity-90 rounded-lg p-6 flex flex-col gap-6 z-10"
+		data-aos="zoom-in"
+		data-aos-easing="ease-out-cubic"
+		data-aos-duration="1000">
+		<p class="text-2xl font-medium text-center text-pretty">I miei progetti</p>
 		<Card
 			v-for="project in projects"
 			data-aos="flip-left"
@@ -54,11 +57,13 @@
 				<span class="whitespace-pre text-wrap">{{ project.description }}</span>
 			</template>
 			<template #footer>
-				<NuxtLink :to="project.github" target="_blank">
+				<NuxtLink
+					:to="project.github"
+					target="_blank">
 					<Icon
 						name="line-md:github-loop"
 						size="2em"
-						class="hover:scale-125 mt-2" />
+						class="mt-2 hover:scale-125" />
 				</NuxtLink>
 			</template>
 		</Card>

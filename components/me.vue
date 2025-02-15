@@ -1,7 +1,8 @@
 <script lang="ts" setup></script>
 
 <template>
-	<div class="m-auto text-white text-left max-w-[800px] bg-zinc-900 bg-opacity-90 rounded-lg p-6 flex gap-6 z-10">
+	<div
+		class="relative m-auto text-white text-left max-w-[800px] bg-zinc-900 bg-opacity-90 rounded-lg p-6 flex gap-6 z-10">
 		<div class="space-y-4">
 			<p class="text-4xl font-bold">Ciao, sono Andrea.</p>
 			<p class="text-2xl">Sviluppatore <span class="text-purple-500">Full Stack</span>.</p>
@@ -9,7 +10,7 @@
 				Sono un appassionato di coding e creo soluzioni sia per il front-end che per il back-end. Sempre alla
 				ricerca di nuove sfide e opportunità di apprendimento.
 			</p>
-			<div class="space-x-4">
+			<div class="absolute bottom-0 pb-3 space-x-4">
 				<NuxtLink
 					to="https://www.linkedin.com/in/andrea-niccolini-497a57348/"
 					target="_blank"
