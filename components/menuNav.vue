@@ -19,24 +19,26 @@
 </script>
 
 <template>
-	<Dock
-		:model="items"
-		position="left"
-		class="py-2">
-		<template #itemicon="{ item }">
-			<NuxtLink :href="item.link">
-				<Icon
-					:name="item.icon || ''"
-					size="2em"
-					class="hover:scale-110"
-					v-tooltip.right="{
-						value: item.label,
-						pt: {
-							arrow: '!text-gray-500',
-							text: '!bg-gray-500 !text-white !font-medium !p-2 !rounded-lg !mb-2',
-						},
-					}" />
-			</NuxtLink>
-		</template>
-	</Dock>
+	<ClientOnly>
+		<Dock
+			:model="items"
+			position="left"
+			class="py-2">
+			<template #itemicon="{ item }">
+				<NuxtLink :href="item.link">
+					<Icon
+						:name="item.icon || ''"
+						size="2em"
+						class="hover:scale-110"
+						v-tooltip.right="{
+							value: item.label,
+							pt: {
+								arrow: '!text-gray-500',
+								text: '!bg-gray-500 !text-white !font-medium !p-2 !rounded-lg !mb-2',
+							},
+						}" />
+				</NuxtLink>
+			</template>
+		</Dock>
+	</ClientOnly>
 </template>

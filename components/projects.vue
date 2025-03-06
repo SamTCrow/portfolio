@@ -24,6 +24,14 @@
 			link: "https://anime-gang.nuxt.dev/",
 			github: "https://github.com/SamTCrow/AnimeGang",
 		},
+		{
+			title: "Fanta-Gang",
+			image: "/fantagang.png",
+			description:
+				"FantaGang è una piattaforma web per la gestione di leghe di fantacalcio, che consente agli utenti di creare leghe, generare calendari di scontri, registrare risultati e visualizzare classifiche in tempo reale.\nRealizzato in Nuxt e typescript con nuxt/UI e Drizzle ORM per la gestione del database",
+			link: "https://fanta-gang.nuxt.dev/",
+			github: "https://github.com/SamTCrow/FantaGang",
+		},
 	];
 </script>
 
@@ -51,7 +59,7 @@
 				</NuxtLink>
 			</template>
 			<template #title>
-				{{ project.title }}
+				<span class="text-lg font-bold">{{ project.title }}</span>
 			</template>
 			<template #content>
 				<span class="whitespace-pre text-wrap">{{ project.description }}</span>
