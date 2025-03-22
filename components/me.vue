@@ -2,7 +2,7 @@
 
 <template>
 	<div
-		class="relative m-auto text-white text-left max-w-[800px] bg-zinc-900 bg-opacity-90 rounded-lg p-6 flex gap-6 z-10">
+		class="relative m-auto text-white text-left max-w-[800px] bg-zinc-900 bg-opacity-90 rounded-lg p-6 flex flex-col gap-6 z-10">
 		<div class="space-y-4">
 			<p class="text-4xl font-bold">Ciao, sono Andrea.</p>
 			<p class="text-2xl">Sviluppatore <span class="text-purple-500">Full Stack</span>.</p>
@@ -35,6 +35,7 @@
 		<NuxtImg
 			src="/me.png"
 			sizes="250px"
-			width="250px" />
+			width="250px" 
+			class="mx-auto"/>
 	</div>
 </template>

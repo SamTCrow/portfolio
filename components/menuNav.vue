@@ -23,7 +23,7 @@
 		<Dock
 			:model="items"
 			position="left"
-			class="py-2">
+			class="py-2 hidden md:flex">
 			<template #itemicon="{ item }">
 				<NuxtLink :href="item.link">
 					<Icon
@@ -40,5 +40,7 @@
 				</NuxtLink>
 			</template>
 		</Dock>
+		
+		
 	</ClientOnly>
 </template>
