@@ -4,6 +4,10 @@
 			name: "Programmatore Full stack Java",
 			image: "/lacerba.png",
 		},
+		{
+			name: "Foundational C# with Microsoft",
+			image: "/csharp.png"
+		},
 	];
 </script>
 
