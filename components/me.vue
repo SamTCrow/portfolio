@@ -7,8 +7,8 @@
 			<p class="text-4xl font-bold">Ciao, sono Andrea.</p>
 			<p class="text-2xl">Sviluppatore <span class="text-purple-500">Full Stack</span>.</p>
 			<p class="text-lg">
-				Sono un appassionato di coding e creo soluzioni sia per il front-end che per il back-end. Sempre alla
-				ricerca di nuove sfide e opportunità di apprendimento.
+				Sono un appassionato di coding e creo soluzioni sia per il front-end che per il
+				back-end. Sempre alla ricerca di nuove sfide e opportunità di apprendimento.
 			</p>
 			<div class="absolute bottom-0 pb-3 space-x-4">
 				<NuxtLink
@@ -32,10 +32,12 @@
 				</NuxtLink>
 			</div>
 		</div>
-		<NuxtImg
-			src="/me.png"
-			sizes="250px"
-			width="250px" 
-			class="mx-auto"/>
+		<div class="flex justify-end">
+			<NuxtImg
+				src="/me.png"
+				sizes="250px"
+				width="250px"
+				class="" />
+		</div>
 	</div>
 </template>
