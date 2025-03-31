@@ -10,16 +10,32 @@
 				"Esperienza avanzata nello sviluppo di applicazioni con Vue.js, inclusa la gestione dello stato e l'integrazione con altre librerie.",
 		},
 		{
+			icon: "skill-icons:cs",
+			tooltip: "C#",
+			expanded: false,
+			content:
+				"Buona esperienza con C# per lo sviluppo di applicazioni desktop, web API e servizi backend con particolare focus su .NET Core.",
+		},
+		{
+			icon: "skill-icons:dotnet",
+			tooltip: "DotNet",
+			expanded: false,
+			content:
+				"Competenza nell'ecosistema .NET per lo sviluppo di applicazioni enterprise, inclusi ASP.NET Core, Entity Framework e servizi Web API.",
+		},
+		{
 			icon: "skill-icons:nuxtjs-dark",
 			tooltip: "Nuxt",
 			expanded: false,
-			content: "Buona conoscenza di Nuxt.js per la creazione di applicazioni Vue.js lato server e statiche.",
+			content:
+				"Buona conoscenza di Nuxt.js per la creazione di applicazioni Vue.js lato server e statiche.",
 		},
 		{
 			icon: "skill-icons:svelte",
 			tooltip: "svelte",
 			expanded: false,
-			content: "Esperienza intermedia con Svelte per la costruzione di interfacce utente reattive e performanti.",
+			content:
+				"Esperienza intermedia con Svelte per la costruzione di interfacce utente reattive e performanti.",
 		},
 		{
 			icon: "skill-icons:react-dark",
@@ -32,13 +48,15 @@
 			icon: "skill-icons:nextjs-dark",
 			tooltip: "Next",
 			expanded: false,
-			content: "Esperienza con Next.js per la creazione di applicazioni React lato server e statiche.",
+			content:
+				"Esperienza con Next.js per la creazione di applicazioni React lato server e statiche.",
 		},
 		{
 			icon: "skill-icons:typescript",
 			tooltip: "Typescript",
 			expanded: false,
-			content: "Ottima conoscenza di TypeScript per lo sviluppo di applicazioni JavaScript tipizzate.",
+			content:
+				"Ottima conoscenza di TypeScript per lo sviluppo di applicazioni JavaScript tipizzate.",
 		},
 		{
 			icon: "skill-icons:javascript",
@@ -51,25 +69,29 @@
 			icon: "skill-icons:java-dark",
 			tooltip: "Java",
 			expanded: false,
-			content: "Buona conoscenza di Java per lo sviluppo di applicazioni backend e orientate agli oggetti.",
+			content:
+				"Buona conoscenza di Java per lo sviluppo di applicazioni backend e orientate agli oggetti.",
 		},
 		{
 			icon: "skill-icons:spring-dark",
 			tooltip: "Java Spring",
 			expanded: false,
-			content: "Esperienza con Spring Framework per lo sviluppo di applicazioni Java robuste e scalabili.",
+			content:
+				"Esperienza con Spring Framework per lo sviluppo di applicazioni Java robuste e scalabili.",
 		},
 		{
 			icon: "skill-icons:tailwindcss-dark",
 			tooltip: "Tailwind CSS",
 			expanded: false,
-			content: "Competenza nell'uso di Tailwind CSS per la creazione di design personalizzati e reattivi.",
+			content:
+				"Competenza nell'uso di Tailwind CSS per la creazione di design personalizzati e reattivi.",
 		},
 		{
 			icon: "skill-icons:html",
 			tooltip: "HTML 5",
 			expanded: false,
-			content: "Ottima conoscenza di HTML5 per la strutturazione e presentazione di contenuti web.",
+			content:
+				"Ottima conoscenza di HTML5 per la strutturazione e presentazione di contenuti web.",
 		},
 		{
 			icon: "skill-icons:php-dark",
@@ -95,13 +117,15 @@
 			icon: "skill-icons:sqlite",
 			tooltip: "SQLite",
 			expanded: false,
-			content: "Conoscenza di SQLite per la gestione di database leggeri e integrati in applicazioni.",
+			content:
+				"Conoscenza di SQLite per la gestione di database leggeri e integrati in applicazioni.",
 		},
 		{
 			icon: "skill-icons:mysql-dark",
 			tooltip: "MySQL",
 			expanded: false,
-			content: "Esperienza con MySQL per la gestione di database relazionali e l'ottimizzazione delle query.",
+			content:
+				"Esperienza con MySQL per la gestione di database relazionali e l'ottimizzazione delle query.",
 		},
 		{
 			icon: "skill-icons:cloudflare-dark",

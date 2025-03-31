@@ -19,11 +19,11 @@
 </script>
 
 <template>
-	<ClientOnly>
+	<div class="hidden lg:flex">
 		<Dock
 			:model="items"
 			position="left"
-			class="py-2 hidden md:flex">
+			class="py-2">
 			<template #itemicon="{ item }">
 				<NuxtLink :href="item.link">
 					<Icon
@@ -40,7 +40,5 @@
 				</NuxtLink>
 			</template>
 		</Dock>
-		
-		
-	</ClientOnly>
+	</div>
 </template>
