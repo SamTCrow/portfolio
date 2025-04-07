@@ -13,7 +13,7 @@
 			image: "/crownest.png",
 			description:
 				"Blog in markdown. Caricando i file .md sull'apposito repository di github, viene automaticamente generato un post con relative categorie e tag per la navigazione. \nSupporta componenti personalizzati all'interno dei file di markdown. \nRealizzato in Svelte e tailwindcss, usa MDsveX come preprocessor per i file in markdown.",
-			link: "https://crowinger.com/",
+			link: "https://svlog.pages.dev/",
 			github: "https://github.com/SamTCrow/svlog",
 		},
 		{
@@ -40,22 +40,26 @@
 		class="m-auto text-white text-left max-w-[800px] bg-zinc-900 bg-opacity-90 rounded-lg p-6 flex flex-col gap-6 z-10"
 		data-aos="zoom-in"
 		data-aos-easing="ease-out-cubic"
-		data-aos-duration="1000">
+		data-aos-duration="1000"
+	>
 		<p class="text-2xl font-medium text-center text-pretty">I miei progetti</p>
 		<Card
 			v-for="project in projects"
 			data-aos="flip-left"
 			data-aos-easing="ease-out-cubic"
 			data-aos-duration="1000"
-			class="p-2">
+			class="p-2"
+		>
 			<template #header>
 				<NuxtLink
 					:to="project.link"
-					target="_blank">
+					target="_blank"
+				>
 					<NuxtImg
 						:src="project.image"
 						sizes="800px"
-						class="hover:opacity-80" />
+						class="hover:opacity-80"
+					/>
 				</NuxtLink>
 			</template>
 			<template #title>
@@ -67,11 +71,13 @@
 			<template #footer>
 				<NuxtLink
 					:to="project.github"
-					target="_blank">
+					target="_blank"
+				>
 					<Icon
 						name="line-md:github-loop"
 						size="2em"
-						class="mt-2 hover:scale-125" />
+						class="mt-2 hover:scale-125"
+					/>
 				</NuxtLink>
 			</template>
 		</Card>
